@@ -248,10 +248,7 @@ body {
     font-size: 3.5rem;
     font-weight: 800;
     font-family: var(--font-heading);
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #000;
     line-height: 1.2;
     margin-bottom: var(--spacing-sm);
 }
@@ -1214,6 +1211,7 @@ section {
         text-align: center;
     }
 }
+
 
 
 
