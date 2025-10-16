@@ -104,6 +104,18 @@ body {
     font-weight: 700;
     font-size: 1.25rem;
 }
+.logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-normal);
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
 
 .logo-text {
     width: 45px;
@@ -1196,3 +1208,4 @@ section {
         text-align: center;
     }
 }
+
