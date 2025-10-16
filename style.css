@@ -364,11 +364,14 @@ body {
     color: rgba(255, 255, 255, 0.9);
 }
 .Profile-img {
-    width: 100%;
-    aspect-ratio: 1;
-    border-radius: var(--radius-lg);
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    border-radius: 50%;
     box-shadow: var(--shadow-md);
+    display: block;
+    margin: 0 auto var(--spacing-md);
+}
 }
 .profile-info {
     display: flex;
@@ -1211,6 +1214,7 @@ section {
         text-align: center;
     }
 }
+
 
 
 
