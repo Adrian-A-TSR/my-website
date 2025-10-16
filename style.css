@@ -366,7 +366,13 @@ body {
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.9);
 }
-
+.profile-img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: var(--radius-lg);
+    object-fit: cover;
+    box-shadow: var(--shadow-md);
+}
 .profile-info {
     display: flex;
     flex-direction: column;
@@ -1208,4 +1214,5 @@ section {
         text-align: center;
     }
 }
+
 
