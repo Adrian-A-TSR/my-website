@@ -372,7 +372,6 @@ body {
     display: block;
     margin: 0 auto var(--spacing-md);
 }
-}
 .profile-info {
     display: flex;
     flex-direction: column;
@@ -1214,6 +1213,7 @@ section {
         text-align: center;
     }
 }
+
 
 
 
