@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adrian D. Alasco - Customer Service and Technical Support Specialist Portfolio">
+    <title>Adrian D. Alasco | Customer Service & Technical Support Specialist</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-text">AA</span>
+                <span class="brand-name">Adrian Alasco</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#competencies" class="nav-link">Competencies</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Adrian D. Alasco</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Customer Service & Technical Support Specialist</h2>
+                    <p class="hero-description">
+                        Delivering exceptional customer experiences for 8+ years across multiple channels with 95%+ CSAT ratings
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="#experience" class="btn btn-secondary">
+                            <i class="fas fa-briefcase"></i> View Experience
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">95%+</span>
+                            <span class="stat-label">CSAT Rating</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Multi</span>
+                            <span class="stat-label">Channel Expert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="profile-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Pampanga, Philippines</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Available for Opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get to Know Me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>
+                        Detail-oriented and empathetic Customer Support Specialist with <strong>8+ years of experience</strong> delivering top-tier support via chat, voice, and email. Proven success in fast-paced environments, excelling at CRM usage, issue resolution, onboarding, and mentoring.
+                    </p>
+                    <p>
+                        Adept at using data insights to improve workflows and customer satisfaction. Passionate about creating exceptional customer experiences and continuously improving service processes.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Excellence in Service</h4>
+                                <p>Consistently achieved 95%+ CSAT ratings across all support channels</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Team Leadership</h4>
+                                <p>Experience in onboarding and mentoring new team members</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Data-Driven Approach</h4>
+                                <p>Using insights to improve workflows and customer satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-contact">
+                    <div class="contact-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span class="label">Phone</span>
+                                    <a href="tel:+639634570219">+63 963 457 0219</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="label">Email</span>
+                                    <a href="mailto:adriand.alasco@outlook.com">adriand.alasco@outlook.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <div>
+                                    <span class="label">LinkedIn</span>
+                                    <a href="https://linkedin.com/in/adrian-alasco" target="_blank">linkedin.com/in/adrian-alasco</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="label">Location</span>
+                                    <span>Pampanga, Philippines</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Competencies Section -->
+    <section id="competencies" class="competencies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Excel At</span>
+                <h2 class="section-title">Core Competencies</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="competencies-grid">
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Customer Support Excellence</h3>
+                    <p>95%+ CSAT ratings across voice, chat, and email support channels</p>
+                    <div class="competency-badge">Voice • Chat • Email</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Multichannel Communication</h3>
+                    <p>Expertise in handling customer inquiries across phone, chat, and email with consistent quality</p>
+                    <div class="competency-badge">Omnichannel Expert</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Technical Problem-Solving</h3>
+                    <p>Skilled in troubleshooting complex technical issues and providing clear solutions</p>
+                    <div class="competency-badge">Technical Support</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>CRM & Tools Mastery</h3>
+                    <p>Proficient in leveraging CRM systems and support tools for efficient service delivery</p>
+                    <div class="competency-badge">CRM Expert</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Customer Onboarding</h3>
+                    <p>Experience in guiding new customers through setup and ensuring successful adoption</p>
+                    <div class="competency-badge">Onboarding Specialist</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Training & Mentoring</h3>
+                    <p>Proven track record in onboarding and mentoring new team members for success</p>
+                    <div class="competency-badge">Team Development</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data-Driven Insights</h3>
+                    <p>Using analytics and metrics to improve workflows and enhance customer satisfaction</p>
+                    <div class="competency-badge">Analytics</div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Process Improvement</h3>
+                    <p>Continuously identifying and implementing service process enhancements</p>
+                    <div class="competency-badge">Innovation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3>Customer Service & Technical Support Specialist</h3>
+                                    <p class="company">8+ Years of Experience</p>
+                                </div>
+                                <span class="duration">
+                                    <i class="fas fa-calendar-alt"></i> 8+ Years
+                                </span>
+                            </div>
+                            <div class="experience-details">
+                                <h4><i class="fas fa-star"></i> Key Achievements</h4>
+                                <ul>
+                                    <li>Maintained 95%+ customer satisfaction (CSAT) ratings consistently across all support channels</li>
+                                    <li>Successfully handled high-volume customer inquiries via voice, chat, and email</li>
+                                    <li>Led onboarding initiatives for new team members, improving ramp-up time</li>
+                                    <li>Implemented data-driven improvements to support workflows</li>
+                                    <li>Resolved complex technical issues with high first-contact resolution rates</li>
+                                </ul>
+                                
+                                <h4><i class="fas fa-tasks"></i> Core Responsibilities</h4>
+                                <ul>
+                                    <li>Providing exceptional customer support across multiple channels (voice, chat, email)</li>
+                                    <li>Troubleshooting technical issues and providing clear, actionable solutions</li>
+                                    <li>Managing customer relationships through CRM systems</li>
+                                    <li>Onboarding new customers and ensuring successful product adoption</li>
+                                    <li>Mentoring and training new team members</li>
+                                    <li>Analyzing support metrics to identify improvement opportunities</li>
+                                    <li>Collaborating with cross-functional teams to enhance service delivery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Technical Proficiency</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fas fa-headset"></i> Customer Support Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Voice Support</span>
+                        <span class="skill-tag">Live Chat Support</span>
+                        <span class="skill-tag">Email Support</span>
+                        <span class="skill-tag">Technical Troubleshooting</span>
+                        <span class="skill-tag">Issue Resolution</span>
+                        <span class="skill-tag">Customer Onboarding</span>
+                        <span class="skill-tag">Account Management</span>
+                        <span class="skill-tag">Escalation Handling</span>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">CRM Systems</span>
+                        <span class="skill-tag">Ticketing Systems</span>
+                        <span class="skill-tag">Live Chat Platforms</span>
+                        <span class="skill-tag">Email Management</span>
+                        <span class="skill-tag">Knowledge Base Systems</span>
+                        <span class="skill-tag">Support Analytics</span>
+                        <span class="skill-tag">Remote Desktop Tools</span>
+                        <span class="skill-tag">Microsoft Office Suite</span>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-users-cog"></i> Soft Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Empathy</span>
+                        <span class="skill-tag">Active Listening</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Mentoring</span>
+                        <span class="skill-tag">Attention to Detail</span>
+                        <span class="skill-tag">Multitasking</span>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-chart-line"></i> Performance Metrics</h3>
+                    <div class="skills-metrics">
+                        <div class="metric-item">
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 95%"></div>
+                            </div>
+                            <div class="metric-label">
+                                <span>Customer Satisfaction (CSAT)</span>
+                                <span class="metric-value">95%+</span>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 90%"></div>
+                            </div>
+                            <div class="metric-label">
+                                <span>First Contact Resolution</span>
+                                <span class="metric-value">High</span>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 100%"></div>
+                            </div>
+                            <div class="metric-label">
+                                <span>Multi-Channel Proficiency</span>
+                                <span class="metric-value">Expert</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    I'm always open to discussing new opportunities and collaborations. Feel free to reach out!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-methods">
+                    <a href="mailto:adriand.alasco@outlook.com" class="contact-method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Me</h3>
+                        <p>adriand.alasco@outlook.com</p>
+                        <span class="method-cta">Send Email <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    
+                    <a href="tel:+639634570219" class="contact-method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Call Me</h3>
+                        <p>+63 963 457 0219</p>
+                        <span class="method-cta">Make Call <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/adrian-alasco" target="_blank" class="contact-method-card">
+                        <div class="method-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect professionally</p>
+                        <span class="method-cta">View Profile <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+                
+                <div class="availability-card">
+                    <div class="availability-icon">
+                        <i class="fas fa-circle pulse"></i>
+                    </div>
+                    <div class="availability-text">
+                        <h3>Available for Opportunities</h3>
+                        <p>Open to customer support, technical support, and customer success roles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Adrian D. Alasco</h3>
+                    <p>Customer Service & Technical Support Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#competencies">Competencies</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/adrian-alasco" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:adriand.alasco@outlook.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+639634570219" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Adrian D. Alasco. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
