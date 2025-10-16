@@ -366,7 +366,7 @@ body {
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.9);
 }
-.profile-img {
+.Profile-img {
     width: 100%;
     aspect-ratio: 1;
     border-radius: var(--radius-lg);
@@ -1214,5 +1214,6 @@ section {
         text-align: center;
     }
 }
+
 
 
